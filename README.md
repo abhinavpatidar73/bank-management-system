@@ -1,49 +1,30 @@
-# PS-8: Settlement Q&A Agent
+# Bank Management System
 
-## Project Overview
-
-Settlement Q&A Agent is a simple Python command-line project made to trace payment transactions through three different records:
-
-- Gateway
-- Bank
-- Ledger
-
-The program checks the information available for a transaction and identifies whether the settlement is completed or if there is an issue that needs attention.
-
-The project uses mock data for demonstration and learning purposes.
+A simple command-line based Bank Management System developed using Python. The project allows users to create and manage bank accounts and perform basic banking operations through a terminal interface.
 
 ## Features
 
-- Search for a transaction using its Transaction ID
-- View Gateway transaction details
-- View Bank transaction details
-- View Ledger transaction details
-- Check the settlement status
-- Find pending or failed transactions
-- Detect missing or unrecorded transactions
-- Compare transaction amounts
-- Compare transaction dates
-- Search transactions by date
-- Handle invalid Transaction IDs
-- Handle invalid menu choices
+- Create a new bank account
+- View account details
+- Deposit money
+- Withdraw money
+- Check account balance
+- Search for an account
+- Basic input validation
+- Simple command-line interface
 
 ## Technologies Used
 
 - Python 3
-- Dictionaries
-- Functions
-- Lists
-- Loops
-- Conditional statements
-- Python `unittest` module
-
-The project does not require any external Python packages.
+- JSON for storing data
+- Python `unittest` for testing
 
 ## Project Files
 
 ```text
-PS-8-Settlement-QA-Agent/
+bank-management-system/
 │
 ├── main.py
 ├── test_system.py
-└── README.md
+├── README.md
+└── .gitignore
